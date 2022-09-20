@@ -45,6 +45,8 @@ $ git push -u origin master
 if push command not work then
 $ git push origin master --force
 
+for pull command 
+$ git pull origin master
 
 
 

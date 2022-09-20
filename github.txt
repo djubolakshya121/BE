@@ -1,0 +1,51 @@
+Git commands
+Starting--
+$ git config --global user.name lav
+
+$ git config --global user.email choubisalave@gmail.com
+
+Intialize first command--
+$ git init
+ 
+Status command
+$ git status
+
+Add command to add file 
+$ git add file name
+S git add -A (multiple files)
+
+first commit procedure
+$ commit
+intial commit
+:wq
+
+Touch command to create new file
+$ touch filename.extension
+
+Undo command to back as it is file content
+$ git checkout -f
+
+To check what are new updation you do it in file
+$ git diff --staged
+
+To remove file 
+$ git rm --cached filename
+
+For permanent delete 
+$ git rm
+ 
+TO make and shift to the branch
+$ git checkout -b branchname
+
+TO  push file to github steps are
+$ git remote add origin url (paste from github)
+$ git clone 
+$ git branch -m master
+$ git push -u origin master
+if push command not work then
+$ git push origin master --force
+
+
+
+
+
